@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "robotframework-facelibrary"
+version = "0.0.1"
+description = "An Library for detecting Faces"
+authors = ["Many Kasiriha <many.kasiriha@dbschenker.com>"]
+license = "Apache 2.0"
+packages = [
+    { include = "FaceLibrary" },
+]
+readme = "./docs/README.md"
+homepage = "https://github.com/manykarim/robotframework-facelibrary"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+opencv-python = "^4.5.5"
+robotframework = ">=4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+coverage = "^6.3.2"
+invoke = "^1.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
