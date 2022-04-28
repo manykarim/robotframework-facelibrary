@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "robotframework-facelibrary"
-version = "0.0.1"
+version = "0.0.2"
 description = "An Library for detecting Faces"
 authors = ["Many Kasiriha <many.kasiriha@dbschenker.com>"]
 license = "Apache 2.0"
