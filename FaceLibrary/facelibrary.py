@@ -2,6 +2,8 @@
 # FaceLibrary for Robot Framework®
 This Docstring is for the `README.md` file.
 
+Keyword Documentation can be found [here](https://manykarim.github.io/robotframework-facelibrary/facelibrary.html)
+
 FaceLibrary is an example library for Robot Framework.  
 It shall demonstrate the steps to publish a library to PyPi.  
 
